@@ -18,7 +18,7 @@ public class TodoContoller {
 
     @GetMapping("/todos")
     public List<TodoDTO> getAll(){
-            return todoService.findAll();
+            return todoService.findAll();///fdfdfd
     }
 
     @GetMapping("/todos/upcomming")
